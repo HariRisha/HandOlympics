@@ -2923,7 +2923,7 @@
   },
   "weightsManifest": [
     {
-      "paths": ["group1-shard1of2.bin", "group1-shard2of2.bin"],
+      "paths": ["./group1-shard1of2.bin", "./group1-shard2of2.bin"],
       "weights": [
         {
           "name": "StatefulPartitionedCall/model/conv_handedness/MatMul/ReadVariableOp",

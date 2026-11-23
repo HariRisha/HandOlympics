@@ -4642,7 +4642,7 @@
   },
   "weightsManifest": [
     {
-      "paths": ["group1-shard1of1.bin"],
+      "paths": ["./group1-shard1of1.bin"],
       "weights": [
         {
           "name": "StatefulPartitionedCall/model/classifier_palm_8_NO_PRUNING/Conv2D/ReadVariableOp",
