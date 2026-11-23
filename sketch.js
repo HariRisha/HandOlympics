@@ -26,7 +26,7 @@ let ceeling;
 let mode = "basketball";
 
 function preload() {
-  handPose = ml5.handPose({ modelPath: "./ml5-models/handpose"});
+  handPose = ml5.handPose({ modelPath: "./ml5-models/handpose", flipped: true});
   leftHandImg = loadImage("assets/hand_trace_left.png");
   rightHandImg = loadImage("assets/hand_trace_right.png");
 }
